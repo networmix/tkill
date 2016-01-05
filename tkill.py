@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 # This sript tracks VPN interface and allows to use uTorrent only if VPN interface is present. 
-# Note: Only MacOS is supported.
 
 import time
 import subprocess
@@ -29,7 +28,7 @@ def main():
 		ifaces = subprocess.check_output(get_ifaces_cmd, shell=True)
 		
 		pids = []
-		# Getting all pids belonging to 'app_name'
+		# Getting all pids belonging to 'APPNAME'
 		for string in proc_lst:
 			if APPNAME in string:
 				pids.append(string.split()[0]) 
@@ -40,7 +39,7 @@ def main():
 		if UT_ACTIVE and VPN_ACTIVE:
 			time.sleep(1)
 
-		# We don't allow to run 'app_name' if VPN is not there
+		# We don't allow to run 'APPNAME' if VPN ('IFNAME') is not there
 		elif UT_ACTIVE:
 			for pid in pids:
 				os.kill(int(pid), SIG)

@@ -9,6 +9,6 @@ Every second script's logic checks two things:
 If uTorrent.app is running but 'ppp' interface is not active - it kills uTorrent.app with SIGTERM (15).
 
 
-To run from Terminal:
-sudo chmod +x tkill.py
-./tkill.py
+To run from Terminal:<br>
+sudo chmod +x tkill.py<br>
+./tkill.py<br>

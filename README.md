@@ -12,3 +12,6 @@ If uTorrent.app is running but 'ppp' interface is not active - it kills uTorrent
 To run from Terminal:<br>
 sudo chmod +x tkill.py<br>
 ./tkill.py<br>
+
+MacOS App is here:<br>
+https://github.com/networmix/tkill/blob/master/dist/tkill.app.zip

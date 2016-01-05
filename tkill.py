@@ -11,8 +11,8 @@ __version__ = "1.0"
 __status__ = "First release"
 
 
-IFNAME = 'ppp' # Track the interface which name starts with IFNAME
-APPNAME = 'uTorrent.app' #The name of the app to kill
+IFNAME = 'ppp' # The name of the interface to track
+APPNAME = 'uTorrent.app' # The name of the app to kill
 
 # SIGTERM (15) - Termination signal. This is the default and safest way to kill process.
 # SIGKILL (9) - Kill signal. This will not save data and no cleanup while killing the process.

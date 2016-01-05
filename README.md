@@ -13,5 +13,5 @@ To run from Terminal:<br>
 sudo chmod +x tkill.py<br>
 ./tkill.py<br>
 
-MacOS App is here:<br>
+MacOS App is here (to download click 'Raw' button):<br>
 https://github.com/networmix/tkill/blob/master/dist/tkill.app.zip

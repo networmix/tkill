@@ -43,7 +43,7 @@ def main():
 		# We don't allow to run 'app_name' if VPN is not there
 		elif UT_ACTIVE:
 			for pid in pids:
-				os.kill(pid, SIG)
+				os.kill(int(pid), SIG)
 			time.sleep(1)
 
 
